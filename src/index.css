@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+html {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  font-weight: 330;
+  text-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2rem;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 2.5rem;
+  font-weight: 450;
+  text-shadow: 18px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+
+.contentCheck{
+  height: 200px;
+  width: 230px;
+  filter: invert(40%) sepia(59%) saturate(2538%) hue-rotate(70deg)
+    brightness(103%) contrast(101%);
+}
+
+#bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(38, 38, 38);
+  background-size: cover;
+  z-index: -3;
+}
+
+#bgnoise {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -3;
+  opacity: 0.15;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.slide {
+  padding: 100px;
+}
+.content {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 80vw;
+  height: 90vh;
+  max-height: 90vh;
+  box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 12px rgba(255, 255, 255, 0.3);
+  align-items: center;
+  justify-content: center;
+  margin-top: -60px;
+  margin-left: 40px;
+}
+
+.fp-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title2 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 7rem;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.title3 {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 4.5rem;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.info-box {
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.info-item {
+  flex: 1 1 50%;
+  min-height: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.obj-box {
+  margin: 2rem auto 0 auto;
+  background-color: rgba(192, 3, 39, 0.35);
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: 90%;
+}
+
+.obj-title {
+  flex: 1 1 100%;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+}
+
+.obj-item {
+  flex: 1 1 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  text-align: left;
+}
+
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 0 2rem 0;
+  font-family: "Raleway", sans-serif;
+}
+
+table tbody tr {
+  border: solid 1px #ffffff;
+  border-left: 0;
+  border-right: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+table tbody tr:nth-child(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+td:first-child {
+  text-align: left;
+  padding-left: 5%;
+}
+
+table td {
+  padding: 0.75em 0.75em;
+}
+
+table th {
+  font-size: 1.2em;
+  padding: 0.75em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+table thead {
+  border-bottom: solid 2px #ffffff;
+}
+
+table tfoot {
+  border-top: solid 2px #ffffff;
+}
+
+table.alt {
+  border-collapse: separate;
+}
+
+table.alt tbody tr td {
+  border: solid 1px #ffffff;
+  border-left-width: 0;
+  border-top-width: 0;
+}
+
+table.alt tbody tr td:first-child {
+  border-left-width: 1px;
+}
+
+table.alt tbody tr:first-child td {
+  border-top-width: 1px;
+}
+
+table.alt thead {
+  border-bottom: 0;
+}
+
+table.alt tfoot {
+  border-top: 0;
+}
+
+.info-item p{
+  font-size: 2rem;
+}
+
+.centrado-fila {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*COMPATIBILIDAD CON EXPLORER*/
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+   -ms-flex-align: center;
+  -ms-flex-pack: center;
+}
+
+.padding-t-b-t{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
